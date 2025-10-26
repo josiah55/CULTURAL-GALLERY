@@ -20,7 +20,7 @@ window.addEventListener("scroll", () => {
   if (window.scrollY > heroBottom - 50) {
     navbar.style.display = "none";
   } else {
-    navbar.style.display = "flex"; // or 'block' if using standard nav
+    navbar.style.display = "flex"; 
   }
 });
 
@@ -448,7 +448,7 @@ document.getElementById("uploadForm").addEventListener("submit", function (e) {
 //Allow right-click everywhere, except on images
 document.addEventListener("contextmenu", function (e) {
   if (e.target.tagName === "IMG") {
-    e.preventDefault(); // disable right-click only on images
+    e.preventDefault(); 
   }
 });
 
