@@ -34,10 +34,19 @@ body {
   }
 }
 
-/* photonaija logo*/
-#photo-naija a:hover {
-  text-decoration: none;
+/* Logo*/
+.my_logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
 }
+
+@media (max-width: 768px) {
+  .my_logo {
+    height: 32px;
+  }
+}
+
 
 /*navbar links photonaija*/
 #top {
